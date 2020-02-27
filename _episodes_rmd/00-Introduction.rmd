@@ -23,7 +23,7 @@ To do this, we'll be introducing you to:
 * RStudio, free and open source software used for creating both programs and visualizations
 * Geospatial data types that you may encounter, how to tell them apart, and how to use them for your own location
 * Commonly used file formats that your agricultural equipment may provide, how to tell them apart, and how to know what to do with each of them
-* Basic data cleaning processses so that you'll get more useful and effective results from analysis of your farm's or your region's data
+* Basic data cleaning processes so that you'll get more useful and effective results from analysis of your farm's or your region's data
 * Ways to calculate the most cost-effective application rates and assess the effectiveness of the results
 * How to design a custom set of variable application rates for your own farm, apply them, and analyze the results consistently across multiple years
  
