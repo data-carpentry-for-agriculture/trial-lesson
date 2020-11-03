@@ -22,9 +22,10 @@ utm_zone <- function(long){
 }
 
 st_transform_utm <- function(sfobject){
-  crs <- st_crs(sfobject)
-  epsg <- crs$epsg
-  if (epsg != 4326){
+  crs <- st_crs(yield)
+  axis <- unlist(strsplit(crs$wkt, ",\n", fixed=TRUE))[9]
+  str_detect(axis, "longitude")
+  if (str_detect(axis, "longitude") != TRUE){
     print("Not in lat/long. Returning original object.")
     return(sfobject)
   }
