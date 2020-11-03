@@ -22,7 +22,7 @@ utm_zone <- function(long){
 }
 
 st_transform_utm <- function(sfobject){
-  crs <- st_crs(yield)
+  crs <- st_crs(sfobject)
   axis <- unlist(strsplit(crs$wkt, ",\n", fixed=TRUE))[9]
   str_detect(axis, "longitude")
   if (str_detect(axis, "longitude") != TRUE){
